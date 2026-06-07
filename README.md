@@ -1,12 +1,13 @@
 # AudioPlayerView
 
-A polished, drop-in audio player screen for SwiftUI — artwork, title, scrubber, transport controls, volume, and AirPlay, all wired up to a single view.
+A drop-in SwiftUI audio player screen, fully inspired by Apple's own players in Podcasts and Apple Music — artwork, title, scrubber, transport controls, volume, and AirPlay, all wired up to a single view.
 
 Built on `AVPlayer` and `MediaPlayer`, it also handles the system integrations you'd otherwise write by hand: Now Playing info on the lock screen and in Control Center, plus remote transport controls (play/pause, skip, and scrubbing from the lock screen).
 
 ## Features
 
-- 🎨 **Full player UI** — artwork, title/subtitle, seek bar with elapsed/remaining time, play/pause with a springy bounce, ±30s skip buttons
+- 🍎 **Native Apple look & feel** — the familiar Podcasts/Apple Music layout, down to the springy play/pause bounce and the seeker that highlights while you drag
+- 🎨 **Full player UI** — artwork, title/subtitle, seek bar with elapsed/remaining time, ±30s skip buttons
 - 🎚 **Interactive scrubbing** — drag the seeker with frame-accurate seeking and live time labels
 - 🔊 **Volume slider** and **AirPlay picker** built in
 - 🔒 **Lock screen & Control Center support** — Now Playing metadata (title, artist, artwork, duration, elapsed time) stays in sync automatically
